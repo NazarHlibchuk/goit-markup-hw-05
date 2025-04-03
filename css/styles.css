@@ -483,7 +483,6 @@ img {
 }
 
 .backdrop {
-    padding: 72px 24px 24px 24px;
     top: 0;
     left: 0;
     width: 100%;
@@ -567,7 +566,7 @@ img {
     text-align: center;
     color: #2e2f42;
     max-width: 360px;
-    margin-top: 72px;
+    margin-top: 47px;
     margin-left: 24px;
     margin-bottom: 16px;
 }
@@ -620,6 +619,7 @@ img {
 
 .modal-input-wrap {
     position: relative;
+    margin-bottom: 8px;
 }
 
  .modal-icon {
@@ -698,7 +698,6 @@ img {
 .modal-checkbox-icon {
   margin-top: 4px;
   margin-left: 3px;
-
 }
 
 .modal-check:checked + .modal-check-text span {
@@ -733,4 +732,9 @@ img {
 .send-btn:focus {
     color: #fff;
     background-color: #404BBF;
+}
+
+.modal-check:hover,
+.modal-check:focus {
+    fill: #4D5AE5;
 }
