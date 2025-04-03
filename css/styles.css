@@ -524,16 +524,27 @@ img {
 }
 
 .modal-close-btn {
-    position: absolute;
+    text-align: center;
     top: 24px;
     right: 24px;
+    position: absolute;
     border-radius: 100%;
     background-color: #e7e9fc;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+   background-color: #404BBF;
+   fill: #FFFFFF;
+}
+
+.close {    
+    top: 50%;
+    right: 50%;
+    transform: translateY(-15%);
+}
 
 .modal-title {
     font-weight: 500;
@@ -555,6 +566,7 @@ img {
     margin-bottom: 8px;
     background-color: transparent;
     resize: none;
+    padding-left: 38px;
 }
 
 .modal-form {
@@ -570,8 +582,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    padding-left: 16px;
-    padding-top: 8px;
 }
 
 .modal-lable {
@@ -587,24 +597,26 @@ img {
     
 }
 
-.modal-icon {
+ .modal-icon {
     position: absolute;
-    left: 16px;
-    top: 8px;
-    transform: translateY(75%);
+    left: 19px;
+    top: 32px;
+    transform: translateY(-25%);
 }
 
 .text-area {
     height: 120px;
+    padding-left: 16px;
+    padding-top: 11px;
 }
 
-.modal-input-wrap:hover,
-.modal-input-wrap:focus {
+ .modal-input-wrap:hover,
+ .modal-input-wrap:focus {
     fill: #4D5AE5;
-    border-color: #4D5AE5;
     
 }
-
+.modal-input-wrap:hover,
+.modal-input-wrap:focus,
 .modal-input:hover,
 .modal-input:focus,
 .text-area:hover,
