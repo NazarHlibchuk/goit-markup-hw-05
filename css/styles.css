@@ -500,6 +500,7 @@ img {
     height: 40px;
     background-color: transparent;
     padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-input,
@@ -515,12 +516,13 @@ img {
 
 .footer-btn {
     display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     max-height: 40px;
+    min-width: 165px;
     border-radius: 4px;
-    padding-top: 8px;
     padding-left: 24px;
-    gap: 16px;
     background-color: #4d5ae5;
     border: none;
     font-weight: 500;
@@ -534,6 +536,7 @@ img {
 
 .footer-send-btn {
     fill: #fff;
+    margin-left: 16px;
     margin-right: 24px;
 }
 
