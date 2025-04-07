@@ -573,9 +573,10 @@ img {
 .modal {
     position: absolute;
     margin-bottom: 8px;
+    padding: 24px;
     top: 50%;
     left: 50%;
-    width: 408px;
+    min-width: 408px;
     min-height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
@@ -630,7 +631,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    max-width: 360px;
+    width: 360px;
     margin-top: 47px;
     margin-left: 24px;
     margin-bottom: 16px;
@@ -639,7 +640,7 @@ img {
 .modal-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 100%;
+    width: 360px;
     height: 40px;
     margin-bottom: 8px;
     background-color: transparent;
@@ -657,6 +658,7 @@ img {
     border-radius: 4px;
     max-width: 360px;
     margin-left: 24px;
+    margin-right: 24px;
     margin-top: 16px;
 }
 
