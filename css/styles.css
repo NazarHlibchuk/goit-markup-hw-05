@@ -632,8 +632,6 @@ img {
     text-align: center;
     color: #2e2f42;
     max-width: 360px;
-    margin-top: 47px;
-    margin-left: 24px;
     margin-bottom: 16px;
 }
 
@@ -657,8 +655,7 @@ img {
 .modal-form {
     border-radius: 4px;
     max-width: 360px;
-    margin-left: 24px;
-    margin-top: 16px;
+ 
 }
 
 .modal-input::placeholder {
